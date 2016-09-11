@@ -1,0 +1,42 @@
+﻿.im {
+    float: left;
+    margin-left: 250px;
+}
+
+.Title{
+    font: bold 25pt Georgia,Garamond,serif;
+    color:orangered;
+    margin-top: 30px;
+    border-top: 30px;
+
+}
+
+.tag {
+    text-decoration: none;
+    border-left: 2px dotted;
+    border-right: 2px dotted;
+}
+.tag:hover {
+    background-color:white;
+}
+
+.tag span{
+    font: bold 20pt Georgia,Garamond,serif;
+    padding: 5px 20px;
+}
+
+header div {
+    clear: left;
+    border-top: 10px solid green;
+    text-indent: 13em;
+    background-color:yellow;
+}
+
+.recipe1 {
+     float: left;
+     margin-right:10em;
+}
+
+.recipe2 {
+     margin-top:5em;
+}

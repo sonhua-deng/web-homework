@@ -1,0 +1,51 @@
+﻿body {
+    color:#404040;
+    font:11pt Georgia,Garamond,serif;
+     background-image: url(http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+}
+
+h1 {
+    text-align:center;
+    font-size:22pt;
+    font-weight:bold;
+}
+
+h2 {
+     font-size:18pt;
+     text-align:left;
+     font-weight:normal;
+}
+
+h1, h2 {
+    color:rgb(164,164,0);
+    background-color:#F0F0F0;
+    font-family: "Century Gothic",Futura,Verdana,sans-serif;
+    text-decoration:underline;
+    letter-spacing: 0.2em;
+}
+
+figure{
+    margin-left: 0;
+}
+
+blockquote {
+    font-style:italic;
+    background-color:#FFFFC8;
+}
+
+a {
+    color:#A4A400;
+    text-decoration:underline;
+}
+
+.border_top {
+    border-top-style:solid;
+}
+
+.nounderline {
+    text-decoration:none;
+}
+
+a img {
+    border: 0;
+}
