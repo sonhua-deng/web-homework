@@ -1,0 +1,126 @@
+﻿body {
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+    font: 8pt Verdana,Tahoma,sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner{
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+    background-repeat: repeat-x;
+}
+
+h1 {
+    font: bold 24pt Tahoma,Verdana,sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid gray;
+    height: 868px;
+}
+
+.right {
+    float: right;
+    background-color: #A2B964;
+    font: 8pt Arial,sans-serif;
+    padding-bottom: 7px;
+    overflow:hidden;
+}
+
+dl {
+    box-sizing: border-box;
+    width: 250px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.left {
+    box-sizing: border-box;
+    width: 550px;
+    float: left;
+}
+
+.rottenbig {
+    background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+    background-repeat: repeat-x;
+}
+
+.rottenbig_rating {
+    font-weight: bold;
+    font-size:48pt;
+    color: red;
+    vertical-align: 17px;
+}
+
+.num {
+    font-size: 8pt;
+    color: white;
+    vertical-align: 17px;
+}
+
+.review-left {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 47%;
+}
+
+.review-right {
+    float: right;
+    width: 47%;
+    padding-right: 2%;
+}
+
+.review img,.reviewer img{
+    float: left;
+    margin-right: 5px;
+}
+
+.review {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    overflow:hidden;
+}
+
+.reviewer {
+    margin-bottom: 3em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bar {
+    margin-top: 843px;
+    height: 20px;
+    padding-top:5px;
+    padding-left: 400px;
+    background-color: #A2B964;
+    background-repeat: repeat-x;
+}
+
+.w3c1 {
+    position: fixed;
+    right: 0px;
+    bottom:40px;
+    border: 0;
+}
+
+.w3c2 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: 0px;
+}
