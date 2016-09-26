@@ -1,0 +1,209 @@
+﻿/*this CSS is made for index html,made by Deng sonhua*/
+
+/*global*/
+html,body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 960px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*info bar*/
+.info {
+    width: 0px;
+    height: 0px;
+    background: #7E7E7E;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition: width 1s,height 1s;
+}
+
+#info-bar {
+    transition: transform 1s;
+}
+
+.info img {
+    float: left;
+    padding-right: 8px;
+}
+
+.page {
+    color :white;
+}
+
+.mine {
+    color: #079E6E;
+}
+
+.user {
+    padding-top: 6px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.comment {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.comment img {
+    padding-top: 10px;
+}
+
+.posted {
+    float: left;
+    padding-left: 20px;
+}
+
+.like {
+    float: right;
+    padding-right:20px;
+}
+
+/*control-ring-container  button*/
+.button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 1s,width 1s,height 1s,transform 1s;
+}
+
+.mask {
+    background: url("assets/images/nomask.png") no-repeat,#707070;
+    background-position: center,center;
+    background-size: 17px 17px,auto;
+}
+
+.history {
+    background: url("assets/images/history.png") no-repeat,#707070;
+    background-position: center,center;
+    background-size: 17px 17px,auto;
+}
+
+.message {
+    background: url("assets/images/message.png") no-repeat,#707070;
+    background-position: center,center;
+    background-size: 17px 17px,auto;
+}
+
+.message span {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    position: relative;
+    right: -9px;
+    bottom: 4px;
+}
+
+.setting {
+    background: url("assets/images/setting.png") no-repeat,#707070;
+    background-position: center,center;
+    background-size: 17px 17px,auto;
+}
+
+.sign {
+    background: url("assets/images/signin.png") no-repeat,#707070;
+    background-position: center,center;
+    background-size: 17px 17px,auto;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: opacity 1s,background 1s,width 1s,height 1s;
+    transition-delay: 0.5s;
+    background: url("assets/images/atplus_white.png") no-repeat 50% 50%,rgba(48, 63, 159, 1);
+    background-size: 30px;
+}
+
+/*content position*/
+#control-ring-container li{
+    position: absolute;
+    right: 480px;
+    bottom :120px;
+}
+
+#info-bar {
+    position: absolute;
+    right: 497px;
+    bottom :140px;
+}
+
+.apb{
+    position: absolute;
+    right: 475px;
+    bottom :118px;
+}
+/*when then mouse in the botton*/
+/*icon change*/
+#button:hover .icon{
+    transition-delay: 0s !important;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background-color: rgba(48, 63, 159, 1);
+    background: url("assets/images/atplus_green.png") no-repeat 50% 50%,rgba(48, 63, 159, 1);
+    background-size: 40px;
+}
+
+/*info change*/
+#button:hover #info-bar {
+    transform: translate(60px,-40px);
+}
+
+#button:hover .info {
+    width: 130px;
+    height: 130px;
+}
+
+/*button change*/
+#button:hover .button {
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+
+#button:hover .mask {
+    transform: translate(-70px,-50px);
+}
+
+#button:hover .history {
+    transform: translate(-80px,-10px);
+}
+
+#button:hover .message {
+    transform: translate(-65px,30px);
+}
+
+#button:hover .setting {
+    transform: translate(-36px,62px);
+}
+
+#button:hover .sign {
+    transform: translate(9px,57px);
+}
