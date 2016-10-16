@@ -1,0 +1,211 @@
+﻿body {
+    width: 900px;
+    margin:0 auto;
+    font-family: 'Microsoft JhengHei UI';
+}
+/*游戏前面的标题和解说*/
+h1 {
+   margin-left: 35px;
+}
+
+#attention {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+/*结果*/
+#result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -120px;
+    width: 900px;
+    height: 40px;
+    font-size: 25px;
+    word-spacing: -2px;
+}
+
+/*游戏主体*/
+#game {
+    background-color: #EEEEEE;
+    width: 500px;
+    height: 300px;
+    line-height: 0px;
+    font-size: 0;
+    -webkit-text-size-adjust:none;
+}
+
+.bar {
+    background-color: #EEEEEE;
+}
+.whitePlace {
+    background-color: white;
+}
+
+.bar,.whitePlace {
+    display: inline-block;
+}
+
+#bar1{
+    width: 149px;
+    height: 49px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#bar3 {
+    width: 149px;
+    height: 49px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#bar2 {
+    width: 200px;
+    height: 48px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#bar4{
+    width: 148px;
+    height: 149px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#whitePlace1{
+    width: 50px;
+    height: 149px;
+}
+
+#whitePlace2 {
+    width: 100px;
+    height: 49px;
+    vertical-align: 100px;
+}
+
+#bar5 {
+    position: relative;
+    left: -100px;
+    width: 98px;
+    height: 99px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#whitePlace3{
+    position: relative;
+    left: -100px;
+    width: 50px;
+    height: 149px;
+}
+
+#bar6{
+    position: relative;
+    left: 350px;
+    top: -150px;
+    width: 148px;
+    height: 149px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#whitePlace4 {
+    position: relative;
+    left: -150px;
+    top: -129.1px;
+    width: 200px;
+    height: 50px;
+}
+
+#bar7 {
+    position: relative;
+    left: -150px;
+    top: -100px;
+    width: 98px;
+    height: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#whitePlace5 {
+    position: relative;
+    left: 300px;
+    top: -208.3px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+}
+
+#whitePlace4 div,#whitePlace5 div {
+    font-size: 40px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#whitePlace4 div {
+    background-color: #83ff82;
+}
+
+#whitePlace5 div {
+    background-color: #8684ff;
+}
+
+span {
+    display: inline-block;
+    vertical-align: -18px;
+}
+
+#bar8 {
+    position: relative;
+    left: -200px;
+    top: -130px;
+    width: 199px;
+    height: 48px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#bar9 {
+    position: relative;
+    left: -200px;
+    top: -130px;
+    width: 100px;
+    height: 49px;
+    border-bottom: 1px solid black;
+}
+
+#bar10 {
+    position: relative;
+    left: 300px;
+    top: -209.1px;
+    width: 199px;
+    height: 48px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.descrition {
+    width: 600px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+#wall {
+    width: 100px;
+    height: 25px;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

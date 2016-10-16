@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="css/mole.css" />
+</head>
+<body>
+    <!--标题-->
+    <h1>Whac-a-mole</h1>
+
+    <!--游戏的描述-->
+    <div class="saying">Test your skill.How many boxes(moles)can you check(hit) in 30 seconds</div>
+    
+    <!--time and score-->
+    <div class="data">
+        <div id="time-bar">
+            <button id="start_stop">Start Game|Stop Game</button>Time:
+            <span id="time">30</span>
+        </div>
+        <div id="score-bar">
+            <button id="over">Game over</button>score:
+            <span id="score">0</span>
+        </div>
+    </div>
+
+    <!--game 的 界面-->
+    <div id="game"> </div>
+
+    <!--instruction-->
+    <div>Instructions:</div>
+    <div>
+        <ol>
+            <li>Click on the radio buttons(moles) as they are selected randomly by the computer.</li>
+            <li>1 point per hit,minus 1 point per miss.</li>
+        </ol>
+    </div>
+    <script src="js/mole.js"></script>
+</body>
+</html>
