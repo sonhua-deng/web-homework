@@ -1,0 +1,27 @@
+﻿body {
+    font-weight: bold;
+}
+
+thead {
+    color: white;
+    background-color: #031A7F;
+}
+
+table, th, td {
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid #2af7fa;
+}
+
+#staff th,#staff th {
+    padding-right: 15px;
+}
+
+#todo tbody tr:nth-child(2),#staff tbody tr:nth-child(2) {
+    background-color: #DDDDDD;
+}
+
+th {
+    background-repeat: no-repeat;
+    background-position: right center;
+}
